@@ -101,7 +101,7 @@ class RecintosZoo {
                     } else {
                         compatibilidade = temCarnivoros ?
                             recinto.animais.every(animalAtual => animalAtual._isCarnivoro && animalAtual.especie === animal._especie) :
-                            true; 
+                            true;
                     }
                 } else {
                     const temCarnivoros = recinto.animais.some(animalAtual => animalAtual._isCarnivoro);
